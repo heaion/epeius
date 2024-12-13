@@ -166,6 +166,7 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 | ADDAPI | [https://raw.github.../addressesapi.txt](https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt) | 不解释, 懂得都懂 |
 | ADDCSV | [https://raw.github.../addressescsv.csv](https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv) | 不解释, 懂得都懂 |
 | DLS | `8` | `ADDCSV`测速结果满足速度下限 | 
+| CSVREMARK | `1` | CSV备注所在列偏移量 |
 | TGTOKEN | `6894123456:XXXXXXXXXX0qExVsBPUhHDAbXXXXXqWXgBA` | 发送TG通知的机器人token | 
 | TGID | `6946912345` | 接收TG通知的账户数字ID | 
 | SUB | `Trojan.fxxk.dedyn.io` | 优选订阅生成器域名(使用订阅器将放弃`ADD`内的本地优选订阅内容) |
@@ -179,6 +180,9 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 | CFPORTS | `2053`,`2096`,`8443` | CF账户标准端口列表 |
 
 # 注意事项
+
+### 开启在线编辑优选列表
+- 绑定名为`KV`的KV空间，即可在无`SUB`的前提下，在配置页实现在线编辑`ADD`与`ADDAPI`优选列表；
 
 ### **关于`SOCKS5`与`PROXYIP`：**
 - 填入`SOCKS5`后，将停用`PROXYIP`。请确保**二者选其一使用**！
